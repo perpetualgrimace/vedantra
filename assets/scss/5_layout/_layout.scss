@@ -5,7 +5,6 @@
   height: 100%;
 }
 
-
 // sweet sticky footer via flexbox
 // https://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/
 @supports (flex-wrap: wrap) {
@@ -22,14 +21,13 @@
   }
 }
 
-
 // row
 .u-row,
 .nav-main {
   width: 85%;
   max-width: 52rem;
   margin: 0 auto;
-  @extend %clearfix;
+  @include clearfix;
 
   @include bp(m1) {
     width: 85%;
@@ -41,7 +39,6 @@
 
 .main,
 .header {
-
   .u-row {
     padding-top: 3rem;
     padding-bottom: 3.5rem;
@@ -62,17 +59,28 @@
 
 // columns
 @include bp(m3) {
-
   .u-columns {
     margin: 0 auto;
   }
 
-  .u-12col { width: 100%; }
-  .u-10col { width: $col-10; }
-  .u-9col  { width: $col-9;  }
-  .u-8col  { width: $col-8;  }
-  .u-6col  { width: $col-6;  }
-  .u-4col  { width: $col-4;  }
+  .u-12col {
+    width: 100%;
+  }
+  .u-10col {
+    width: $col-10;
+  }
+  .u-9col {
+    width: $col-9;
+  }
+  .u-8col {
+    width: $col-8;
+  }
+  .u-6col {
+    width: $col-6;
+  }
+  .u-4col {
+    width: $col-4;
+  }
 
   // content
   .u-content {

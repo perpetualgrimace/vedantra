@@ -8,7 +8,6 @@
   }
 }
 
-
 // list reset
 ul {
   padding: 0;
@@ -18,15 +17,18 @@ ul {
   }
 }
 
-
 // bulleted lists
-.u-bulleted li,
-article ul li {
-  @include list;
-  list-style-type: disc;
-  list-style-position: outside;
+@mixin bulleted-list {
+  li {
+    @include list;
+    list-style-type: disc;
+    list-style-position: outside;
+  }
 }
-
+.u-bulleted,
+article ul {
+  @include bulleted-list;
+}
 
 // numbered lists
 .u-numbered li,

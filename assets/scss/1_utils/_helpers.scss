@@ -16,34 +16,21 @@
   transform: translate(-50%, 0);
 }
 
-%absolute-center {
-  @include absolute-center;
-}
-%vertical-center {
-  @include vertical-center;
-}
-%horizontal-center {
-  @include horizontal-center;
-}
-
-
 // Clearfix
 @mixin clearfix {
-  *zoom:1;
+  *zoom: 1;
   &:before,
   &:after {
-    content:"";
-    display:table;
-    }
-    &:after {
-      clear:both;
-    }
+    content: "";
+    display: table;
   }
-%clearfix,
+  &:after {
+    clear: both;
+  }
+}
 .clearfix {
   @include clearfix;
 }
-
 
 // Hide text
 @mixin hide-text {
@@ -52,23 +39,15 @@
   overflow: hidden;
   display: none;
 }
-%hide-text {
+.hide-text {
   @include hide-text;
 }
-.hide-text {
-  @extend %hide-text;
-}
-
 
 // Psuedo elements
 @mixin pseudo {
-  content: '';
+  content: "";
   display: block;
 }
-%pseudo {
-  @include pseudo;
-}
-
 
 // Anchor link destination vertical offset
 @mixin anchor-offset($height) {
@@ -80,7 +59,6 @@
   }
 }
 
-
 // No wiggle
 @mixin no-wiggle {
   -webkit-backface-visibility: hidden;
@@ -88,10 +66,6 @@
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
 }
-%no-wiggle {
-  @include no-wiggle;
-}
-
 
 // Auto-ellipsis
 @mixin ellipsis {
@@ -99,12 +73,9 @@
   white-space: nowrap;
   text-overflow: ellipsis;
 }
-%ellipsis {
-  @include ellipsis;
-}
 
 // fill up all of the space
-%cover {
+@mixin cover {
   position: absolute;
   top: 0;
   left: 0;
@@ -113,12 +84,15 @@
 }
 
 // screen reader text
-.u-screenreader {
+@mixin screen-reader-text {
   clip: rect(1px, 1px, 1px, 1px);
   position: absolute !important;
   height: 1px;
   width: 1px;
   overflow: hidden;
+}
+.u-screenreader {
+  @include screen-reader-text;
 }
 .u-screenreader--ignore {
   speak: none;

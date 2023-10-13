@@ -1,9 +1,10 @@
 // helpers
 @mixin dropdown-style {
-  @extend box-shadow;
+  @include box-shadow;
   transform: translateY(-10px);
 
-  li, a {
+  li,
+  a {
     display: block;
   }
 
@@ -12,12 +13,13 @@
     border-left: 0.25rem solid $gray;
     white-space: nowrap;
 
-    &:hover, &:active, &:focus {
+    &:hover,
+    &:active,
+    &:focus {
       border-color: $brand-color;
     }
   }
 }
-
 
 // nav container
 .nav_container {
@@ -33,7 +35,6 @@
     }
   }
 }
-
 
 // main navbar
 .nav_main {
@@ -53,7 +54,7 @@
       }
     }
     &__link {
-      @include svg('nav-triangle', 'img/triangles/');
+      @include svg("nav-triangle", "img/triangles/");
       padding: 1.25rem 0.5rem 1.2rem;
       background-repeat: no-repeat;
       background-position: 50% 150%;
@@ -65,10 +66,8 @@
   }
 }
 
-
 // dropdown menu
 @include bp(m1) {
-
   .nav_dropdown__list {
     @include dropdown-style;
     @include box-shadow;
@@ -88,7 +87,8 @@
     }
   }
   .has-dropdown .nav_main__link:focus + .nav_dropdown__list,
-  .is-focused { // class added via js on focus
+  .is-focused {
+    // class added via js on focus
     opacity: 1;
     @include box-shadow;
 
@@ -96,9 +96,7 @@
       box-shadow: none;
     }
   }
-
 }
-
 
 // nested menu
 .nav_nested {
@@ -106,7 +104,6 @@
     padding-left: 2rem !important;
   }
 }
-
 
 // logo
 .nav_logo {
@@ -124,7 +121,6 @@
   }
 }
 
-
 // menu toggle
 .nav_toggle {
   float: right;
@@ -137,7 +133,6 @@
     display: none;
   }
 }
-
 
 // humburger icon
 .nav_hamburger {
@@ -170,12 +165,10 @@
   }
 }
 
-
 // hide / show menu on smaller viewports
 .nav_main {
   @include bp-max(m1) {
-
-  // hide submenu
+    // hide submenu
     .nav_dropdown__list {
       display: none;
     }
@@ -202,6 +195,5 @@
         transform: translateY(0);
       }
     }
-
   }
 }

@@ -10,53 +10,70 @@ html {
   }
 }
 
-
 // webfonts
-%aller {
+@mixin aller {
   font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
   font-style: normal;
   font-weight: 400;
 }
-%aller-italic {
+@mixin aller-italic {
   font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
   font-weight: 400;
   font-style: italic;
 }
-%aller-bold {
+@mixin aller-bold {
   font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
   font-weight: 700;
   font-style: normal;
 }
 
-
 // typefaces, weights, line-heights
 body {
-  @extend %aller;
+  @include aller;
   font-size: 1rem;
   line-height: 1.725em;
 }
 
-ul, ol, dl,
+ul,
+ol,
+dl,
 .is-error {
   line-height: 1.25em;
 }
 
-i, em, blockquote, figcaption {
-  @extend %aller-italic;
+i,
+em,
+blockquote,
+figcaption {
+  @include aller-italic;
 }
 
-strong, b,
-a, button, .btn--small, input[type=button],
+strong,
+b,
+a,
+button,
+.btn--small,
+input[type="button"],
 .nav_toggle__text {
-  @extend %aller-bold;
+  @include aller-bold;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 400; // override browser style
   line-height: 1.35em;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   letter-spacing: 0.02em;
 }
 
@@ -80,13 +97,21 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.125em;
 }
 
-
 // type sizes
-small, .u-small,
-button, .btn--small, input[type=button],
-.nav_main a, .breadcrumbs *, footer a, footer p,
-dl * {
+@mixin small-font-size {
   font-size: 0.8rem; // 14 % 18
+}
+small,
+.u-small,
+button,
+.btn--small,
+input[type="button"],
+.nav_main a,
+.breadcrumbs *,
+footer a,
+footer p,
+dl * {
+  @include small-font-size;
 }
 
 h1 {
@@ -101,11 +126,15 @@ h2 {
   font-size: 1.4444444444rem; // 26 % 18
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
   font-size: 1.2222222222rem; // 22 % 18
 }
 
-.u-sidebar, .u-sidebar--left {
+.u-sidebar,
+.u-sidebar--left {
   @include bp(m3) {
     font-size: 0.8rem; // 14 % 18
     h2 {
@@ -114,13 +143,12 @@ h3, h4, h5, h6 {
   }
 }
 
-
 // alignment helpers
 .u-left {
   text-align: left;
 }
 .u-left--center {
-  @extend .u-left;
+  text-align: left;
   @include bp(m2) {
     text-align: center;
   }
@@ -130,7 +158,7 @@ h3, h4, h5, h6 {
   text-align: center;
 }
 .u-center--left {
-  @extend .u-center;
+  text-align: center;
   @include bp(m2) {
     text-align: left;
   }
@@ -140,12 +168,11 @@ h3, h4, h5, h6 {
   text-align: right;
 }
 .u-right--center {
-  @extend .u-right;
+  text-align: right;
   @include bp(m2) {
     text-align: center;
   }
 }
-
 
 // text-rendering
 .u-dark * {

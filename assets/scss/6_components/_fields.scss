@@ -1,5 +1,5 @@
 // inputs
-input:not([type=submit]):not([type=file]),
+input:not([type="submit"]):not([type="file"]),
 textarea {
   padding: 0.5rem 0.75rem;
   width: 100%;
@@ -24,12 +24,11 @@ textarea {
   max-height: 20rem;
 }
 
-
 // contact form
 form {
   label {
-    @extend .u-small;
-    @extend strong;
+    @include small-font-size;
+    @include aller-bold;
   }
 
   @include bp-max(m3) {
@@ -38,7 +37,6 @@ form {
     }
   }
   @include bp(m3) {
-
     .u-6col {
       display: inline-block;
 
@@ -46,13 +44,12 @@ form {
         float: right;
       }
     }
-
   }
 }
 
-
 // error / success messages
-.message-success, .message-fail {
+.message-success,
+.message-fail {
   padding-top: 2rem;
 
   @include bp(m3) {
@@ -62,7 +59,7 @@ form {
 
 // honeypot
 .uniform__potty {
-  @extend .screen-reader-text;
+  @include screen-reader-text;
 }
 
 // mailchimp

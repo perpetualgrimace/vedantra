@@ -1,14 +1,13 @@
 // cards
 
 // style h3 as p
-%paragraph-title {
+@mixin paragraph-title {
   font-size: 1rem;
   margin-bottom: 0;
 }
 
-
 // container
-@supports(flex-wrap: wrap) {
+@supports (flex-wrap: wrap) {
   .cards {
     display: flex;
     flex-wrap: wrap;
@@ -22,7 +21,6 @@
     }
   }
 }
-
 
 // vertical
 .card {
@@ -49,7 +47,6 @@
   }
 }
 
-
 // vertical card (people)
 .card--vertical {
   text-align: center;
@@ -71,10 +68,10 @@
       margin-right: auto;
     }
 
-      &:nth-of-type(3n + 1),
-      &:nth-of-type(3n + 2) {
-        margin-right: 5%;
-      }
+    &:nth-of-type(3n + 1),
+    &:nth-of-type(3n + 2) {
+      margin-right: 5%;
+    }
   }
 
   .caption__title {
@@ -85,7 +82,6 @@
     font-size: 0.625rem;
   }
 }
-
 
 // horizontal card (papers)
 .card--horizontal {
@@ -113,7 +109,8 @@
     flex-direction: row;
     margin-left: 0;
 
-    @supports (display: -webkit-flex) or (display: -moz-flex) or (display: flex) {
+    @supports (display: -webkit-flex) or (display: -moz-flex) or
+      (display: flex) {
       .card + .card {
         margin-left: 2rem;
       }
@@ -125,7 +122,6 @@
       margin-top: 2rem;
     }
   }
-
 }
 
 .thumb {
@@ -134,10 +130,9 @@
 
   &__img {
     width: 100%;
-    @extend %no-wiggle;
+    @include no-wiggle;
   }
 }
-
 
 .caption {
   display: block;
@@ -147,7 +142,7 @@
   background-color: $white;
 
   &__title {
-    @extend %paragraph-title;
+    @include paragraph-title;
     color: $dark-1;
   }
 

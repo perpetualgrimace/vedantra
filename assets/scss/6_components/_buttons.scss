@@ -1,12 +1,13 @@
 // button helper
-%button {
+@mixin button {
   margin-top: 0.5em;
   padding: 0.24em 2em 0.375em 2em;
   display: inline-block;
   border: 1px solid;
   border-radius: $radius;
 
-  &:hover, &:focus {
+  &:hover,
+  &:focus {
     @include box-shadow;
     background: rgba($light-1, 0.1);
     border-color: $brand-color;
@@ -15,5 +16,5 @@
 
 .btn--small,
 .btn--large {
-  @extend %button;
+  @include button;
 }

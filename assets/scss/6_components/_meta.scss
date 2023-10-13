@@ -1,10 +1,9 @@
 // meta info
 .meta {
-
   ul {
-    @extend .u-bulleted;
+    @include bulleted-list;
   }
   dt {
-    @extend strong;
+    @include aller-bold;
   }
 }
