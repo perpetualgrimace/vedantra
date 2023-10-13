@@ -1,7 +1,7 @@
 <?php
 
   // main menu items
-  $items = $pages->visible()->not('papers');
+  $items = $pages->listed()->not('papers');
 
   // text that applies next to menu icon
   $menutext = 'menu';
@@ -51,7 +51,7 @@
         <!-- dropdown list -->
         <ul class="nav_dropdown__list" role="group" aria-label="submenu">
 
-        <?php foreach($item->children()->visible() as $child): ?>
+        <?php foreach($item->children()->listed() as $child): ?>
           <li class="nav_dropdown__item" role="menuitem">
             <a class="nav_dropdown__link<?php e($child->isOpen(), ' is-active_page') ?>" href="<?php if($child->isOpen() && ($page->slug() == $child->slug())): echo '#top'; else: echo $child->url(); endif ?>" role="menuitem" aria-haspopup="true">
               <?php echo $child->title() ?>
@@ -63,7 +63,7 @@
 
           <li class="nav_nested">
             <ul class="nav_nested__list" role="group" aria-label="submenu">
-              <?php foreach($child->children()->visible() as $grandchild): ?>
+              <?php foreach($child->children()->listed() as $grandchild): ?>
               <li class="nav_nested__item" role="menuitem">
                 <a class="nav_nested__link<?php e($grandchild->isOpen(), ' is-active_page') ?>" href="<?php if($grandchild->isOpen() && ($page->slug() == $grandchild->slug())): echo '#top'; else: echo $grandchild->url(); endif ?>">
                   <span class="u-screenreader">Subcategory </span><?php echo $grandchild->title() ?>

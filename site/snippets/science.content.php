@@ -1,7 +1,7 @@
 <?php
 
   // pull related papers
-  $papers = $pages->find('papers')->children()->visible();
+  $papers = $pages->find('papers')->children()->listed();
 
   // check for optionable variables passed from template
   if(isset($alignment)): $alignment = $alignment; else: $alignment = 'u-left'; endif;

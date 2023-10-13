@@ -1,5 +1,5 @@
 <?php
-  $children = $page->children()->visible();
+  $children = $page->children()->listed();
   // check for optionable variables passed from template
   if(isset($alignment)): $alignment = $alignment; else: $alignment = 'u-left'; endif;
 ?>

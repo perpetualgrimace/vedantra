@@ -1,6 +1,6 @@
 <?php
   // papers, please
-  $papers = $page->children()->visible()->sortBy('pub_date', 'desc');
+  $papers = $page->children()->listed()->sortBy('pub_date', 'desc');
 ?>
 
   <div class="u-row">

@@ -1,7 +1,7 @@
 <?php
 
   // don't count current page as a sibling
-  $siblings = $page->siblings($self = false)->visible();
+  $siblings = $page->siblings($self = false)->listed();
 
   // check for optionable variables passed from template
   if(isset($alignment)): $alignment = $alignment; else: $alignment = 'u-left'; endif;

@@ -8,9 +8,9 @@
 
   // check whether to display children or siblings...
   if(($page->depth() == 2) && $page->hasVisibleChildren()):
-    $related = $page->children()->visible();
+    $related = $page->children()->listed();
   elseif(($page->depth() == 3) && ($page->hasNextVisible() || $page->hasPrevVisible())):
-    $related = $page->siblings()->visible();
+    $related = $page->siblings()->listed();
   endif;
 
   // ...and use this component only if one of the previous conditions are met

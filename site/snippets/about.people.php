@@ -4,7 +4,7 @@
   // check for optionable variables passed from template
   if(isset($alignment)): $alignment = $alignment; else: $alignment = 'u-left'; endif;
   // board of directors
-  $employees = $people->children()->visible();
+  $employees = $people->children()->listed();
 ?>
 
   <div class="u-row <?php echo $alignment ?>">

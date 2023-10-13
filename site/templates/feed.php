@@ -1,6 +1,6 @@
 <?php
 
-  $items = $pages->find('science')->grandChildren()->visible()->flip()->limit(10);
+  $items = $pages->find('science')->grandChildren()->listed()->flip()->limit(10);
 
   snippet('feed', array(
     'link'  => url('science'),
