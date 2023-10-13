@@ -23,7 +23,7 @@
       <?php endif ?>
       <?php if($page->Pub_date() != ''): ?>
         <dt>Publication date:</dt>
-        <dd><?php echo $page->date('F d, Y', 'Pub_date') ?></dd>
+        <dd><?php echo $page->Pub_date()->toDate('F d, Y') ?></dd>
       <?php endif ?>
       <?php if($page->Authors() != ''): ?>
         <dt>Authors:</dt>
