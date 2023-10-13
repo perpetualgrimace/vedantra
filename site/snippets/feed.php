@@ -36,7 +36,7 @@ echo '<?xml version="1.0" encoding="utf-8"?>';
         <?php if($item->description() != ''): ?>
         <description><![CDATA[<?php echo $item->description() ?>]]></description>
         <?php else: ?>
-        <description><![CDATA[<?php echo excerpt($item->text('150')) ?>]]></description>
+        <description><![CDATA[<?php echo /* TODO: replace with chopper excerpt($item->text(), 150) */ $item->text() ?>]]></description>
         <?php endif ?>
       <?php endif ?>
 

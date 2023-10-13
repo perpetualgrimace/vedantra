@@ -53,7 +53,8 @@
   if($page->description() != ''):
     echo $page->description();
   else:
-    echo excerpt($page->text(), 150);
+    echo $page->text(), 150;
+    // TODO:  echo excerpt($page->text(), 150);
   endif ?>">
   <meta name="twitter:image:src" content="<?php
   if($page->image('social.png')):
