@@ -1,0 +1,27 @@
+Title: Vedantra
+
+----
+
+Description: 
+
+----
+
+Keywords: 
+
+----
+
+Tagline: Precision Immunity
+
+----
+
+Dropdownable:
+
+- science
+
+----
+
+Lv3dropdown: 1
+
+----
+
+Copyright: © 2013-(date: Year) All Rights Reserved.

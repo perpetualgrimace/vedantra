@@ -1,0 +1,185 @@
+// theme helpers
+@mixin text-shadow($shadow: $shadow-dark) {
+  text-shadow: 0px 1px 2px #{$shadow};
+}
+
+@mixin box-shadow($shadow: $shadow) {
+  box-shadow: 0px 1px 6px #{$shadow};
+}
+
+%no_link {
+  color: $dark-2;
+}
+%no_link--parent {
+  > * {
+    color: $dark-2;
+  }
+}
+
+
+// global
+body {
+  color: $dark-2;
+  background-color: $white;
+}
+
+
+// headings
+h1, h2, h3, h4, h5, h6 {
+  color: $brand-color;
+}
+
+
+// nav
+.nav_container, .nav_main__list, .nav_dropdown__list {
+  background-color: $white;
+}
+
+.nav_container {
+  border-bottom: 0.125rem solid $brand-color;
+}
+
+.is-active_page {
+  color: $brand-color;
+}
+
+
+.nav_hamburger {
+  &__bun {
+    background: $gray;
+  }
+
+  &.is-active {
+    .nav_hamburger__bun {
+      background: $brand-color;
+    }
+    + .nav_toggle__text {
+      color: $brand-color;
+    }
+  }
+}
+
+.nav_toggle {
+  &:hover, &:active, &:focus {
+    .nav_hamburger__bun {
+      background: $brand-color;
+    }
+  }
+}
+
+.nav_logo {
+  &:hover, &:focus {
+    opacity: $hover-opacity;
+  }
+}
+
+
+// links
+section a, article a, aside a, *[type=submit] {
+  color: $brand-accent;
+
+  &:hover, &:active, &:focus {
+    color: $brand-color;
+  }
+}
+
+section a, article a, aside a {
+  border-bottom: 0.125em solid transparent;
+
+  &:hover, &:active, &:focus {
+    border-color: $light-1;
+  }
+}
+
+nav a:not(.is-active_page) {
+  color: $gray;
+
+  &:hover, &:active, &:focus {
+    color: $brand-color;
+  }
+}
+
+a:hover, a:focus {
+
+  &, & * {
+    color: $brand-color;
+  }
+
+  &:hover img {
+    opacity: $hover-opacity;
+  }
+  &:active, &:active * {
+    color: $brand-accent;
+  }
+}
+
+label {
+  &:hover, &:focus {
+    color: $brand-color;
+  }
+  &:active {
+    color: inherit;
+  }
+}
+
+
+// focus on parent elements
+a:focus, input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 8px rgba($brand-color, 0.5);
+}
+.is-focused a {
+  outline: none;
+}
+
+
+// selections
+::selection {
+  background: rgba($light-2, 0.35);
+}
+
+
+// header
+.header {
+  background-image: linear-gradient(to bottom, #595E78 0%, #383C55 100%);
+}
+
+
+// main
+.main {
+  background-color: $white;
+}
+
+
+// adjacent rows
+.u-row + .u-row {
+  border-top: 1px solid $light-1;
+}
+
+
+// dark theme
+.u-dark {
+  background-color: $dark-2;
+
+  * {
+    color: $light-1;
+    @include text-shadow;
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  a:hover, a:active, a:focus {
+    color: $white;
+  }
+}
+
+
+// footer
+.footer {
+  background-color: $brand-color;
+}
+
+
+// ui
+.is-error {
+  color: $brand-color;
+}

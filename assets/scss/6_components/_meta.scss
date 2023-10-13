@@ -1,0 +1,10 @@
+// meta info
+.meta {
+
+  ul {
+    @extend .u-bulleted;
+  }
+  dt {
+    @extend strong;
+  }
+}

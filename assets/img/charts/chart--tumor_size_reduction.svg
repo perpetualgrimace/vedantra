@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="785px" height="500px" viewBox="0 0 785 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.6 (26304) - http://www.bohemiancoding.com/sketch -->
+    <title>chart---tumor_size_reduction</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="graphics" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chart---tumor_size_reduction">
+            <g id="Group" transform="translate(54.000000, 63.000000)">
+                <g id="Grid">
+                    <g id="grid" transform="translate(68.500000, 5.500000)" stroke-linecap="square">
+                        <path d="M1,351 L536,351" id="Path-1065-Copy-8" stroke="#8186A0"></path>
+                        <path d="M1,281 L536,281" id="Path-1065-Copy-9" stroke="#DFDFE5"></path>
+                        <path d="M1,211 L536,211" id="Path-1065-Copy-10" stroke="#DFDFE5"></path>
+                        <path d="M1,141 L536,141" id="Path-1065-Copy-11" stroke="#DFDFE5"></path>
+                        <path d="M1,71 L536,71" id="Path-1065-Copy-12" stroke="#DFDFE5"></path>
+                        <path d="M1,1 L536,1" id="Path-1065-Copy-13" stroke="#DFDFE5"></path>
+                        <path d="M1,350 L1,1" id="Path-1070-Copy-6" stroke="#8186A0"></path>
+                        <path d="M89,350 L89,1" id="Path-1070-Copy-7" stroke="#DFDFE5"></path>
+                        <path d="M178,350 L178,1" id="Path-1070-Copy-8" stroke="#DFDFE5"></path>
+                        <path d="M267,350 L267,1" id="Path-1070-Copy-9" stroke="#DFDFE5"></path>
+                        <path d="M356,350 L356,1" id="Path-1070-Copy-10" stroke="#DFDFE5"></path>
+                        <path d="M445,350 L445,1" id="Path-1070-Copy-12" stroke="#DFDFE5"></path>
+                        <path d="M536,350 L536,1" id="Path-1070-Copy-11" stroke="#DFDFE5"></path>
+                    </g>
+                    <path d="M60,6 L69,6 L69,7 L60,7 L60,6 Z" id="Fill-171-Copy-10" fill="#8186A0"></path>
+                    <path d="M60,356 L69,356 L69,357 L60,357 L60,356 Z" id="Fill-171-Copy-11" fill="#8186A0"></path>
+                    <path d="M60,286 L69,286 L69,287 L60,287 L60,286 Z" id="Fill-171-Copy-12" fill="#8186A0"></path>
+                    <path d="M60,216 L69,216 L69,217 L60,217 L60,216 Z" id="Fill-171-Copy-13" fill="#8186A0"></path>
+                    <text id="Tumor-size-(mm3)" transform="translate(9.500000, 182.000000) rotate(-90.000000) translate(-9.500000, -182.000000) " font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#383C55">
+                        <tspan x="-46.143" y="186">Tumor size (mm</tspan>
+                        <tspan x="54.377" y="186">3</tspan>
+                        <tspan x="60.677" y="186">)</tspan>
+                    </text>
+                    <text id="0" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="46.4" y="360">0</tspan>
+                    </text>
+                    <text id="100" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="33.2" y="290">100</tspan>
+                    </text>
+                    <text id="200" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="33.2" y="220">200</tspan>
+                    </text>
+                    <text id="300" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="33.2" y="150">300</tspan>
+                    </text>
+                    <text id="400" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="33.2" y="80">400</tspan>
+                    </text>
+                    <text id="500" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="33.2" y="10">500</tspan>
+                    </text>
+                    <path d="M60,146 L69,146 L69,147 L60,147 L60,146 Z" id="Fill-171-Copy-14" fill="#8186A0"></path>
+                    <path d="M60,76 L69,76 L69,77 L60,77 L60,76 Z" id="Fill-171-Copy-15" fill="#8186A0"></path>
+                    <g id="X-Copy" transform="translate(69.000000, 357.000000)" fill="#8186A0">
+                        <path d="M88,9 L88,0 L89,0 L89,9 L88,9 L88,9 Z" id="Fill-171-Copy"></path>
+                        <path d="M0,9 L0,0 L1,0 L1,9 L0,9 L0,9 Z" id="Fill-171-Copy-7"></path>
+                        <path d="M177,9 L177,0 L178,0 L178,9 L177,9 L177,9 Z" id="Fill-171-Copy-2"></path>
+                        <path d="M266,9 L266,0 L267,0 L267,9 L266,9 L266,9 Z" id="Fill-171-Copy-3"></path>
+                        <path d="M355,9 L355,0 L356,0 L356,9 L355,9 L355,9 Z" id="Fill-171-Copy-5"></path>
+                        <path d="M444,9 L444,0 L445,0 L445,9 L444,9 L444,9 Z" id="Fill-171-Copy-8"></path>
+                        <path d="M535,9 L535,0 L536,0 L536,9 L535,9 L535,9 Z" id="Fill-171-Copy-6"></path>
+                    </g>
+                    <text id="10" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="150.4" y="378">10</tspan>
+                    </text>
+                    <text id="0-copy" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="66.7" y="378">0</tspan>
+                    </text>
+                    <text id="20" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="239.4" y="378">20</tspan>
+                    </text>
+                    <text id="30" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="328.4" y="378">30</tspan>
+                    </text>
+                    <text id="40" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="417.4" y="378">40</tspan>
+                    </text>
+                    <text id="60" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="598.4" y="378">60</tspan>
+                    </text>
+                    <text id="50-copy" font-family="Aller" font-size="11" font-weight="normal" line-spacing="30" fill="#383C55">
+                        <tspan x="506.4" y="378">50</tspan>
+                    </text>
+                </g>
+                <g id="alternative" transform="translate(114.000000, 8.000000)">
+                    <path d="M18,337 C18,332.029 13.971,328 9,328 C4.029,328 0,332.029 0,337 C0,341.971 4.029,346 9,346 C13.971,346 18,341.971 18,337" id="Fill-61-Copy-22" fill="#AEB2C6"></path>
+                    <path d="M34,333 C34,328.029 29.971,324 25,324 C20.029,324 16,328.029 16,333 C16,337.971 20.029,342 25,342 C29.971,342 34,337.971 34,333" id="Fill-61-Copy-23" fill="#AEB2C6"></path>
+                    <path d="M61,304 C61,299.029 56.971,295 52,295 C47.029,295 43,299.029 43,304 C43,308.971 47.029,313 52,313 C56.971,313 61,308.971 61,304" id="Fill-61-Copy-24" fill="#AEB2C6"></path>
+                    <path d="M88,254 C88,249.029 83.971,245 79,245 C74.029,245 70,249.029 70,254 C70,258.971 74.029,263 79,263 C83.971,263 88,258.971 88,254" id="Fill-61-Copy-25" fill="#AEB2C6"></path>
+                    <path d="M123,120 C123,115.029 118.971,111 114,111 C109.029,111 105,115.029 105,120 C105,124.971 109.029,129 114,129 C118.971,129 123,124.971 123,120" id="Fill-61-Copy-26" fill="#AEB2C6"></path>
+                    <path d="M8.5,337.5 L25,333 L52,303.5 L79.5,253.5 L114,119 L136,0" id="Path-1366" stroke="#AEB2C6" stroke-width="3" stroke-linecap="round"></path>
+                </g>
+                <g id="alternative" transform="translate(131.000000, 8.000000)">
+                    <path d="M9,340 L44.5,340 L72,328.5 L104,312 L125.5,301.5 L195.5,165 L229.5,49 L246.5,0" id="Path-1367" stroke="#8186A0" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M113,312 C113,307.029 108.971,303 104,303 C99.029,303 95,307.029 95,312 C95,316.971 99.029,321 104,321 C108.971,321 113,316.971 113,312" id="Fill-61-Copy-21" fill="#8186A0"></path>
+                    <path d="M18,340 C18,335.029 13.971,331 9,331 C4.029,331 0,335.029 0,340 C0,344.971 4.029,349 9,349 C13.971,349 18,344.971 18,340" id="Fill-61-Copy-14" fill="#8186A0"></path>
+                    <path d="M53,340 C53,335.029 48.971,331 44,331 C39.029,331 35,335.029 35,340 C35,344.971 39.029,349 44,349 C48.971,349 53,344.971 53,340" id="Fill-61-Copy-15" fill="#8186A0"></path>
+                    <path d="M81,329 C81,324.029 76.971,320 72,320 C67.029,320 63,324.029 63,329 C63,333.971 67.029,338 72,338 C76.971,338 81,333.971 81,329" id="Fill-61-Copy-16" fill="#8186A0"></path>
+                    <path d="M134,302 C134,297.029 129.971,293 125,293 C120.029,293 116,297.029 116,302 C116,306.971 120.029,311 125,311 C129.971,311 134,306.971 134,302" id="Fill-61-Copy-17" fill="#8186A0"></path>
+                    <path d="M178,216 C178,211.029 173.971,207 169,207 C164.029,207 160,211.029 160,216 C160,220.971 164.029,225 169,225 C173.971,225 178,220.971 178,216" id="Fill-61-Copy-18" fill="#8186A0"></path>
+                    <path d="M204,166 C204,161.029 199.971,157 195,157 C190.029,157 186,161.029 186,166 C186,170.971 190.029,175 195,175 C199.971,175 204,170.971 204,166" id="Fill-61-Copy-19" fill="#8186A0"></path>
+                    <path d="M238,50 C238,45.029 233.971,41 229,41 C224.029,41 220,45.029 220,50 C220,54.971 224.029,59 229,59 C233.971,59 238,54.971 238,50" id="Fill-61-Copy-20" fill="#8186A0"></path>
+                </g>
+                <g id="alternative" transform="translate(135.000000, 40.000000)">
+                    <path d="M9,311.5 L45.5,311.5 L68,273 L101,294.5 L121.5,298 L163.5,302 L191.5,286 L225.5,277 L252.5,259 L286.5,250.5 L313.5,224 L358.5,195 L384,142 L468,0" id="Path-1368" stroke="#595E78" stroke-width="3" stroke-linecap="round"></path>
+                    <path d="M109,295 C109,290.029 104.971,286 100,286 C95.029,286 91,290.029 91,295 C91,299.971 95.029,304 100,304 C104.971,304 109,299.971 109,295" id="Fill-61" fill="#595E78"></path>
+                    <path d="M18,312 C18,307.029 13.971,303 9,303 C4.029,303 0,307.029 0,312 C0,316.971 4.029,321 9,321 C13.971,321 18,316.971 18,312" id="Fill-61-Copy-12" fill="#595E78"></path>
+                    <path d="M53,312 C53,307.029 48.971,303 44,303 C39.029,303 35,307.029 35,312 C35,316.971 39.029,321 44,321 C48.971,321 53,316.971 53,312" id="Fill-61-Copy-13" fill="#595E78"></path>
+                    <path d="M77,274 C77,269.029 72.971,265 68,265 C63.029,265 59,269.029 59,274 C59,278.971 63.029,283 68,283 C72.971,283 77,278.971 77,274" id="Fill-61-Copy-11" fill="#595E78"></path>
+                    <path d="M130,298 C130,293.029 125.971,289 121,289 C116.029,289 112,293.029 112,298 C112,302.971 116.029,307 121,307 C125.971,307 130,302.971 130,298" id="Fill-61-Copy" fill="#595E78"></path>
+                    <path d="M172,302 C172,297.029 167.971,293 163,293 C158.029,293 154,297.029 154,302 C154,306.971 158.029,311 163,311 C167.971,311 172,306.971 172,302" id="Fill-61-Copy-2" fill="#595E78"></path>
+                    <path d="M200,287 C200,282.029 195.971,278 191,278 C186.029,278 182,282.029 182,287 C182,291.971 186.029,296 191,296 C195.971,296 200,291.971 200,287" id="Fill-61-Copy-3" fill="#595E78"></path>
+                    <path d="M234,277 C234,272.029 229.971,268 225,268 C220.029,268 216,272.029 216,277 C216,281.971 220.029,286 225,286 C229.971,286 234,281.971 234,277" id="Fill-61-Copy-4" fill="#595E78"></path>
+                    <path d="M261,260 C261,255.029 256.971,251 252,251 C247.029,251 243,255.029 243,260 C243,264.971 247.029,269 252,269 C256.971,269 261,264.971 261,260" id="Fill-61-Copy-5" fill="#595E78"></path>
+                    <path d="M296,251 C296,246.029 291.971,242 287,242 C282.029,242 278,246.029 278,251 C278,255.971 282.029,260 287,260 C291.971,260 296,255.971 296,251" id="Fill-61-Copy-6" fill="#595E78"></path>
+                    <path d="M322,224 C322,219.029 317.971,215 313,215 C308.029,215 304,219.029 304,224 C304,228.971 308.029,233 313,233 C317.971,233 322,228.971 322,224" id="Fill-61-Copy-7" fill="#595E78"></path>
+                    <path d="M367,195 C367,190.029 362.971,186 358,186 C353.029,186 349,190.029 349,195 C349,199.971 353.029,204 358,204 C362.971,204 367,199.971 367,195" id="Fill-61-Copy-8" fill="#595E78"></path>
+                    <path d="M393,142 C393,137.029 388.971,133 384,133 C379.029,133 375,137.029 375,142 C375,146.971 379.029,151 384,151 C388.971,151 393,146.971 393,142" id="Fill-61-Copy-9" fill="#595E78"></path>
+                    <path d="M418,100 C418,95.029 413.971,91 409,91 C404.029,91 400,95.029 400,100 C400,104.971 404.029,109 409,109 C413.971,109 418,104.971 418,100" id="Fill-61-Copy-10" fill="#595E78"></path>
+                </g>
+                <text id="ICMV+CPM" font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#602351">
+                    <tspan x="618" y="361">ICMV+CPM</tspan>
+                </text>
+                <text id="ICMV" font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#595E78">
+                    <tspan x="618" y="32">ICMV</tspan>
+                </text>
+                <text id="CPM" font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#8186A0">
+                    <tspan x="383" y="21">CPM</tspan>
+                </text>
+                <text id="Untreated" font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#AEB2C6">
+                    <tspan x="254" y="21">Untreated</tspan>
+                </text>
+                <g id="vedantra" transform="translate(226.000000, 337.000000)">
+                    <path d="M18,9 C18,4.029 13.971,0 9,0 C4.029,0 0,4.029 0,9 C0,13.971 4.029,18 9,18 C13.971,18 18,13.971 18,9" id="Fill-61" fill="#602351"></path>
+                    <path d="M39,12 C39,7.029 34.971,3 30,3 C25.029,3 21,7.029 21,12 C21,16.971 25.029,21 30,21 C34.971,21 39,16.971 39,12" id="Fill-61-Copy" fill="#602351"></path>
+                    <path d="M81,20 C81,15.029 76.971,11 72,11 C67.029,11 63,15.029 63,20 C63,24.971 67.029,29 72,29 C76.971,29 81,24.971 81,20" id="Fill-61-Copy-2" fill="#602351"></path>
+                    <path d="M109,20 C109,15.029 104.971,11 100,11 C95.029,11 91,15.029 91,20 C91,24.971 95.029,29 100,29 C104.971,29 109,24.971 109,20" id="Fill-61-Copy-3" fill="#602351"></path>
+                    <path d="M143,20 C143,15.029 138.971,11 134,11 C129.029,11 125,15.029 125,20 C125,24.971 129.029,29 134,29 C138.971,29 143,24.971 143,20" id="Fill-61-Copy-4" fill="#602351"></path>
+                    <path d="M170,20 C170,15.029 165.971,11 161,11 C156.029,11 152,15.029 152,20 C152,24.971 156.029,29 161,29 C165.971,29 170,24.971 170,20" id="Fill-61-Copy-5" fill="#602351"></path>
+                    <path d="M205,20 C205,15.029 200.971,11 196,11 C191.029,11 187,15.029 187,20 C187,24.971 191.029,29 196,29 C200.971,29 205,24.971 205,20" id="Fill-61-Copy-6" fill="#602351"></path>
+                    <path d="M231,20 C231,15.029 226.971,11 222,11 C217.029,11 213,15.029 213,20 C213,24.971 217.029,29 222,29 C226.971,29 231,24.971 231,20" id="Fill-61-Copy-7" fill="#602351"></path>
+                    <path d="M276,20 C276,15.029 271.971,11 267,11 C262.029,11 258,15.029 258,20 C258,24.971 262.029,29 267,29 C271.971,29 276,24.971 276,20" id="Fill-61-Copy-8" fill="#602351"></path>
+                    <path d="M302,20 C302,15.029 297.971,11 293,11 C288.029,11 284,15.029 284,20 C284,24.971 288.029,29 293,29 C297.971,29 302,24.971 302,20" id="Fill-61-Copy-9" fill="#602351"></path>
+                    <path d="M327,20 C327,15.029 322.971,11 318,11 C313.029,11 309,15.029 309,20 C309,24.971 313.029,29 318,29 C322.971,29 327,24.971 327,20" id="Fill-61-Copy-10" fill="#602351"></path>
+                    <path d="M9.5,8.5 L30.5,12.5 L73,19.5 L376.500507,19.5" id="Path-1369" stroke="#602351" stroke-width="3" stroke-linecap="round"></path>
+                </g>
+                <text id="Days-post-tumor-indu" font-family="Aller" font-size="14" font-weight="normal" line-spacing="18" fill="#383C55">
+                    <tspan x="253.483" y="409">Days post tumor induction</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

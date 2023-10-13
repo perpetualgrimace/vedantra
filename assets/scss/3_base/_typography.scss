@@ -1,0 +1,154 @@
+// scale baseline with document
+html {
+  font-size: 16px;
+
+  @include bp(m1) {
+    font-size: 18px;
+  }
+  @include bp(l3) {
+    font-size: 20px;
+  }
+}
+
+
+// webfonts
+%aller {
+  font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+%aller-italic {
+  font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+%aller-bold {
+  font-family: "aller", "PT Sans", Tahoma, Geneva, sans-serif, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+// typefaces, weights, line-heights
+body {
+  @extend %aller;
+  font-size: 1rem;
+  line-height: 1.725em;
+}
+
+ul, ol, dl,
+.is-error {
+  line-height: 1.25em;
+}
+
+i, em, blockquote, figcaption {
+  @extend %aller-italic;
+}
+
+strong, b,
+a, button, .btn--small, input[type=button],
+.nav_toggle__text {
+  @extend %aller-bold;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400; // override browser style
+  line-height: 1.35em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 0.02em;
+}
+
+.nav_main a {
+  line-height: 1.35em;
+
+  &:not(.is-active_page) {
+    font-weight: 400;
+  }
+}
+
+.card--title_only {
+  font-weight: 400;
+}
+
+.footer a {
+  font-weight: 400;
+}
+
+.footer p {
+  line-height: 1.125em;
+}
+
+
+// type sizes
+small, .u-small,
+button, .btn--small, input[type=button],
+.nav_main a, .breadcrumbs *, footer a, footer p,
+dl * {
+  font-size: 0.8rem; // 14 % 18
+}
+
+h1 {
+  font-size: 1.6666666666rem; // 30 % 18
+
+  @include bp(s2) {
+    font-size: 2rem; // 36 % 18
+  }
+}
+
+h2 {
+  font-size: 1.4444444444rem; // 26 % 18
+}
+
+h3, h4, h5, h6 {
+  font-size: 1.2222222222rem; // 22 % 18
+}
+
+.u-sidebar, .u-sidebar--left {
+  @include bp(m3) {
+    font-size: 0.8rem; // 14 % 18
+    h2 {
+      font-size: 1.2222222222rem; // 22 % 18
+    }
+  }
+}
+
+
+// alignment helpers
+.u-left {
+  text-align: left;
+}
+.u-left--center {
+  @extend .u-left;
+  @include bp(m2) {
+    text-align: center;
+  }
+}
+
+.u-center {
+  text-align: center;
+}
+.u-center--left {
+  @extend .u-center;
+  @include bp(m2) {
+    text-align: left;
+  }
+}
+
+.u-right {
+  text-align: right;
+}
+.u-right--center {
+  @extend .u-right;
+  @include bp(m2) {
+    text-align: center;
+  }
+}
+
+
+// text-rendering
+.u-dark * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

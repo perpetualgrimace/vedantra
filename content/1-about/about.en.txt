@@ -1,0 +1,11 @@
+Title: About
+
+----
+
+Text: 
+
+## Advancing the Frontier of Immunotherapy
+
+The full potential of the human immune system is yet to be unlocked. Prophylactic vaccines have been among the greatest achievements in human healthcare, demonstrating the power of natural immune responses when focused on the right targets. The next major advance in healthcare is upon us, as scientists expose chronic infections and cancers to the immune responses that can defeat them. Vedantra builds upon these advances, using the body’s natural immune responses against defined targets to create effective, durable, and safe therapies.
+
+(cta: Collaborate with us link: partnerships)

@@ -1,0 +1,62 @@
+// icmv svg illustration
+$custom-ease: cubic-bezier(0.30, 0, 0.70, 1);
+
+#icmv {
+  path {
+    transform-origin: 200px 200px;
+  }
+  #hairs,
+  #links {
+    animation:
+    gentle-rotate 6s alternate infinite $custom-ease;
+  }
+  #rings {
+    animation:
+    gentle-grow 3s alternate infinite $custom-ease;
+  }
+  #adjuvants {
+    animation:
+    gentle-rotate 12s alternate infinite $custom-ease;
+  }
+  #antigens {
+    animation:
+    gentle-nod 2s alternate infinite $custom-ease;
+  }
+}
+
+
+// gentle keyframe aninmations
+@keyframes gentle-rotate {
+  from {
+    transform: rotate(0deg);
+    opacity: 0.95;
+  }
+  to {
+    transform: rotate(2deg);
+  }
+}
+@keyframes gentle-grow {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.0125);
+  }
+}
+@keyframes gentle-shrink {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(0.9875);
+  }
+}
+@keyframes gentle-nod {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(2px);
+    opacity: 0.85;
+  }
+}

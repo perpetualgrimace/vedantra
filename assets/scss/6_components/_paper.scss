@@ -1,0 +1,18 @@
+// paper
+.paper__meta {
+  @include bp-max(m3) {
+    ul {
+      text-decoration: none;
+      padding-left: 0;
+
+      li {
+        display: inline-block;
+
+        &::after {
+          content: ',';
+          margin-right: 0.5em;
+        }
+      }
+    }
+  }
+}

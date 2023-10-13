@@ -1,0 +1,38 @@
+Title: Interbilayer-crosslinked multilamellar vesicles as synthetic vaccines for potent humoral and cellular immune responses
+
+----
+
+Publication: Nature Materials
+
+----
+
+Pub_date: 2011/2/20
+
+----
+
+Link: http://www.nature.com/nmat/journal/v10/n3/abs/nmat2960.html
+
+----
+
+Authors: 
+
+- James Moon
+- Heikyung Suh
+- Anna Bershteyn
+- Matthias Stephan
+- Haipeng Liu
+- Bonnie Huang
+- Mashaal Sohail
+- Samantha Luo
+- Soong Ho Um
+- Htet Khant
+- Jessica Goodwin
+- Jenelyn Ramos
+- Wah Chiu
+- Darrell Irvine
+
+----
+
+Text: 
+
+Vaccines based on recombinant proteins avoid the toxicity and antivector immunity associated with live vaccine (for example, viral) vectors, but their immunogenicity is poor, particularly for CD8+ T-cell responses. Synthetic particles carrying antigens and adjuvant molecules have been developed to enhance subunit vaccines, but in general these materials have failed to elicit CD8+ T-cell responses comparable to those for live vectors in preclinical animal models. Here, we describe interbilayer-crosslinked multilamellar vesicles formed by crosslinking headgroups of adjacent lipid bilayers within multilamellar vesicles. Interbilayer-crosslinked vesicles stably entrapped protein antigens in the vesicle core and lipid-based immunostimulatory molecules in the vesicle walls under extracellular conditions, but exhibited rapid release in the presence of endolysosomal lipases. We found that these antigen/adjuvant-carrying vesicles form an extremely potent whole-protein vaccine, eliciting endogenous T-cell and antibody responses comparable to those for the strongest vaccine vectors. These materials should enable a range of subunit vaccines and provide new possibilities for therapeutic protein delivery.

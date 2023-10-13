@@ -1,0 +1,26 @@
+// person
+.person {
+
+  &__img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+}
+
+
+// in between layout
+.person {
+  @extend %clearfix;
+
+  @media screen and (min-width: $s2) and (max-width: $m3 - 0.00001rem) {
+    &__img {
+      width: $col-6;
+      float: left;
+    }
+    &__meta {
+      width: $col-6;
+      float: right;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.header {
+  overflow: hidden;
+  min-height: 14rem;
+  height: 16rem;
+  max-height: 90vh;
+}
+
+// header container
+.header__container {
+  z-index: 1;
+}
+
+// header graphic
+.header__graphic {
+  position: absolute;
+  background: url(../../img/big-o.svg);
+
+  &--left {
+    width: 120vw;
+    height: 120vw;
+    left: -85vw;
+    top: -50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  &--right {
+    width: 230vw;
+    height: 230vw;
+    right: -180vw;
+    top: -50vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  @include bp(m3) {
+    &--left {
+      width: 100vw;
+      height: 100vw;
+      left: -62vw;
+      top: -52vw;
+    }
+
+    &--right {
+      width: 210vw;
+      height: 210vw;
+      right: -163vw;
+      top: -115vw;
+    }
+  }
+}

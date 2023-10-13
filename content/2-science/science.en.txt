@@ -1,0 +1,33 @@
+Title: The Science
+
+----
+
+Text: 
+
+## Immune surveillance
+
+As blood flows through vessels, it moves fluid through every tissue in the body. From the tissues, fluid is carried into lymph vessels that eventually return it to the blood. This flow allows the immune system to gather information about the state of the body, noting signs of disease that are carried into the lymph system.
+
+(image: lymph_node.png alt: lymph node illustration)
+
+Lymph nodes, positioned along lymph vessels, contain specialized antigen-presenting cells (APCs) that take up proteins and peptides (antigens) flowing through the lymph and present them to effector cells. When the APCs recognize signals indicating disease or damage, they "activate", causing effector cells to seek out and destroy the foreign antigen. Because this response adjusts to target specific antigens, we call it the adaptive immune system. This results in rapid clearance or systemic toxicity, which limits the efficacy of these immunogens.
+
+----
+
+Diseases: 
+
+## Combating the worst
+
+Our platforms are effective against some of the most confounding global health issues of our time. Cancer and infectious disease destroy lives on every continent. We have developed a way to improve the performance of drugs that battle these ailments. Here’s what we’re doing to help.
+
+----
+
+P-i: 
+
+## Precision Immunity
+
+Lymph flow is a one-way street for most molecules, but not all. The majority of adjuvants and peptides are too small to be swept along by the fluid flow, and get pushed back into the blood and systemic circulation without ever entering the lymph node. This results in a buildup of these adjuvants, leading to systemic toxicity.As a result, vaccines had to be delivered with limited levels of proteins and peptides, reducing their efficacy.
+
+By delivering active agents directly to their targets, our patented technologies solve problems of drug stability, resiliency, and safety, all by elegantly simple design.
+
+(cta: See how link: science/tech)

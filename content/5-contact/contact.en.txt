@@ -1,0 +1,85 @@
+Title: Contact
+
+----
+
+Headline: Contact Vedantra
+
+----
+
+Label-name: Your name
+
+----
+
+Label-email: Email address
+
+----
+
+Label-text: Your message
+
+----
+
+Submit: Submit
+
+----
+
+Error-name: May we have your name?
+
+----
+
+Error-email: Please enter your email address so we can get back to you.
+
+----
+
+Error-email-invalid: This doesn't seem to be a valid email address.
+
+----
+
+Error-text: Wasn’t there something you wanted to say?
+
+----
+
+Success: 
+
+## Thank you for the message
+
+We’ll be in touch as soon as we can.
+
+----
+
+Fail: 
+
+## Something went wrong
+
+Please try (tel: 6179452077 text: 617-945-2077) or (email: info@vedantra.com text: info@vedantra.com).
+
+----
+
+Phone: 617-945-2077
+
+----
+
+Fax: 617-945-2096
+
+----
+
+Email: info@vedantra.com
+
+----
+
+Address: One Kendall Square Bldg. 1400 West, Suite 14303, Cambridge MA 02139
+
+----
+
+Gmaps_URL: https://www.google.com/maps/place/One+Kendall+Square/@42.3669802,-71.0923488,17z/data=!4m5!1m2!2m1!1s1+Kendall+Square+B1400W,+Cambridge,+MA+02139!3m1!1s0x89e370ae748fb657:0x8438bae752b14651
+
+----
+
+Twitter:
+
+----
+
+Facebook:
+
+----
+
+Linkedin: 

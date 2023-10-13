@@ -1,0 +1,9 @@
+Title: Technologies
+
+----
+
+Text: 
+
+## Greater effects, fewer side effects
+
+By encapsulating molecules in our Interbilayer-Crosslinked Multilamellar Vesicles ((link: science/tech/icmv text: ICMVs)) or conjugating them to our (link: science/tech/amphiphiles text: amphiphilic constructs), Vedantra solutions deliver these agents directly to the antigen-presenting cells of the lymph nodes. This stimulates the adaptive immune system, compelling the body to use its natural processes to identify and expand immune cells capable of destroying infected or cancerous cells without harming normal tissues. As a result, we significantly improve the performance of treatment while limiting adverse side effects.

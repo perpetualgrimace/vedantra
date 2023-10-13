@@ -1,0 +1,15 @@
+Title: HPV
+
+----
+
+Text:
+
+## Targeting HPV
+
+One of the most prevalent infections in the world is human papilloma virus (HPV). More than 20 million people are infected in the US alone, with 6.2 million more infected each year. Though usually innocuous, a notable percentage of infected patients go on to develop HPV-induced cancers, including cervix, head and neck, and ano-genital. With its high and growing healthcare burden, multiple vaccines have been developed to prevent HPV infections. However, uptake in most countries is below 50%, leading to continued infections and cancer risk.
+
+(image: chart--t-cell_response_v2@2x.png alt: )
+
+To solve this unmet need, Vedantra has developed a therapeutic vaccine that targets the HPV proteins that can cause cancer and are not included in current prophylactic vaccines. We have seen strong T cell responses against both E6 and E7 oncoproteins that drive significant delays in tumor growth. Used in combination with other immunomodulators, E6 and E7 (link: ../../tech/icmv text: ICMVs) can eliminate established tumors in multiple mouse models of HPV-induced cancer.
+
+(image: chart--tumor_size_reduction_v2@2x.png alt: )

@@ -1,0 +1,43 @@
+Title: Home
+
+----
+
+Headline: Immunotherapy by rational design
+
+----
+
+Subhead: Significantly improving outcomes by enhancing adaptive immune responses
+
+----
+
+Sci_header: 
+
+efficacy up, toxicity down
+
+----
+
+Text:
+
+Historically, the problem with immunotherapy has been the lack of an effective adaptive immune response. The challenge: how to generate a therapeutic response while limiting exposure to toxic adjuvants or constitutively activated T cells. Vedantra develops methods to precisely target the adaptive immune system, using its natural processes to expand immune cells that destroy infected or cancerous cells without harming normal tissues.
+
+(cta: Precision Immunity link: science)
+
+----
+
+Tech: 
+
+## Focusing interaction on the immune system
+
+Born from the Irvine Lab at MIT, Vedantra’s platform technologies are able to deliver agents directly to the antigen-presenting cells of the lymph nodes. As demonstrated in (link: papers/icmv_as_synthetic_vaccines text: Nature Materials), (link: papers/generation_of_effector_memory text: Science Translational Medicine), and (link: papers/lymph_node_targeting_in_vaccines text: Nature), getting the right molecules to the right place reduces adjuvant toxicity while enhancing immune responses against an array of antigens in both cancer and infectious disease.
+
+(cta: How the Vedantra platform works link: science/tech)
+
+----
+
+About: 
+
+## Built on the body’s natural defenses
+
+We engineer solutions that harness the immune system's powerful potential to combat some of the world's most devastating health problems.
+
+(cta: About Vedantra link: about)

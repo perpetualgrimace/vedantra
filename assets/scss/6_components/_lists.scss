@@ -1,0 +1,54 @@
+// list helper
+@mixin list {
+  padding-left: 0.5em;
+  margin-left: 1.125em;
+
+  li {
+    margin-top: 0.25rem;
+  }
+}
+
+
+// list reset
+ul {
+  padding: 0;
+
+  li {
+    list-style-type: none;
+  }
+}
+
+
+// bulleted lists
+.u-bulleted li,
+article ul li {
+  @include list;
+  list-style-type: disc;
+  list-style-position: outside;
+}
+
+
+// numbered lists
+.u-numbered li,
+article ol li {
+  @include list;
+  list-style-type: decimal;
+  list-style-position: outside;
+}
+
+// inline
+.u-inline_list li {
+  display: inline-block;
+}
+
+// make definition list links more clickable
+dl {
+  a {
+    padding: 0.25em 0;
+    display: inline-block; // make the underline make sense when lines wrap
+  }
+  dt + dd {
+    margin-top: 0.25rem !important;
+    margin-left: 0;
+  }
+}

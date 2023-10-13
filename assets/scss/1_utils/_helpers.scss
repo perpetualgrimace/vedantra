@@ -1,0 +1,132 @@
+// Center positioned elements
+@mixin absolute-center {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+@mixin vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+@mixin horizontal-center {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+%absolute-center {
+  @include absolute-center;
+}
+%vertical-center {
+  @include vertical-center;
+}
+%horizontal-center {
+  @include horizontal-center;
+}
+
+
+// Clearfix
+@mixin clearfix {
+  *zoom:1;
+  &:before,
+  &:after {
+    content:"";
+    display:table;
+    }
+    &:after {
+      clear:both;
+    }
+  }
+%clearfix,
+.clearfix {
+  @include clearfix;
+}
+
+
+// Hide text
+@mixin hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  display: none;
+}
+%hide-text {
+  @include hide-text;
+}
+.hide-text {
+  @extend %hide-text;
+}
+
+
+// Psuedo elements
+@mixin pseudo {
+  content: '';
+  display: block;
+}
+%pseudo {
+  @include pseudo;
+}
+
+
+// Anchor link destination vertical offset
+@mixin anchor-offset($height) {
+  &:before {
+    @include pseudo;
+    margin-top: -$height;
+    height: $height;
+    visibility: hidden;
+  }
+}
+
+
+// No wiggle
+@mixin no-wiggle {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+%no-wiggle {
+  @include no-wiggle;
+}
+
+
+// Auto-ellipsis
+@mixin ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+%ellipsis {
+  @include ellipsis;
+}
+
+// fill up all of the space
+%cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+// screen reader text
+.u-screenreader {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.u-screenreader--ignore {
+  speak: none;
+}
+
+// browsersync notification
+#__bs_notify__ {
+  opacity: 0.4;
+  @include horizontal-center;
+  pointer-events: none;
+}

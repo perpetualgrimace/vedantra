@@ -1,0 +1,42 @@
+$timing: 0.15s cubic-bezier(0.30, 0, 0.70, 1);
+
+a, a *,
+input, textarea, button,
+.card, .card * {
+  transition:
+  color $timing,
+  background $timing,
+  border-color $timing,
+  box-shadow $timing,
+  opacity $timing;
+}
+
+// header animation
+.header--home .header__graphic {
+  opacity: 1;
+  transition: opacity 1s linear;
+}
+
+// override
+.nav_hamburger {
+  &__bun {
+    transition:
+    color $timing,
+    transform $timing;
+  }
+  &.is-inactive .nav_hamburger__bun--patty {
+    transition:
+    color $timing,
+    transform $timing,
+    opacity $timing;
+  }
+}
+
+
+// dropdown
+.nav_dropdown__list,
+.nav_main__list {
+  transition:
+  opacity $timing,
+  transform $timing;
+}
