@@ -7,7 +7,7 @@
 <div class="u-row <?php echo $alignment ?>">
 
   <article <?php if($children->count() > 0): echo 'class="u-content"'; endif ?>>
-    <?php echo kirbytext($page->text()) ?>
+    <?php echo $page->text()->kirbytext() ?>
   </article>
 
 <?php if($children->count() > 0): ?>

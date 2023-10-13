@@ -11,7 +11,7 @@
 <div class="u-row <?php echo $alignment ?>">
 
   <article class="u-content">
-    <?php echo kirbytext($page->text()) ?>
+    <?php echo $page->text()->kirbytext() ?>
   </article>
 
   <?php if($siblings->count() > 0): ?>

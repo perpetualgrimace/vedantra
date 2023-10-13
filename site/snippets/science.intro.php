@@ -7,12 +7,12 @@
 <div class="u-row <?php echo $alignment ?>">
 
   <article class="u-content">
-    <?php echo kirbytext($page->text()) ?>
+    <?php echo $page->text()->kirbytext() ?>
   </article>
 
   <aside class="u-sidebar">
 
-    <?php echo kirbytext($page->diseases()) ?>
+    <?php echo $page->diseases()->kirbytext() ?>
 
     <ul class="btn_group--round">
 

@@ -11,7 +11,7 @@
 <footer class="footer <?php echo $depth . ' ' . $theme ?>" role="contentinfo">
   <div class="u-row <?php echo $alignment ?>">
     <div class="footer__contact"><p><?php echo $site->title() ?> | <a href="<?php echo $contact->gmaps_url() ?>" target="_blank"><?php echo $contact->address() ?></a></p></div>
-    <div class="footer__legal"><?php echo kirbytext($site->copyright()) ?></div>
+    <div class="footer__legal"><?php echo $site->copyright()->kirbytext() ?></div>
   </div>
 </footer>
 

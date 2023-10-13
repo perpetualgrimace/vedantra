@@ -13,7 +13,7 @@
 
     <div class="js-message--success is-successful">
       <div class="u-row u-center">
-        <?php echo kirbytext($page->success()) ?>
+        <?php echo $page->success()->kirbytext() ?>
       </div>
     </div>
 
@@ -21,7 +21,7 @@
 
     <div class="js-message--fail is-fail">
       <div class="u-row u-center">
-        <?php echo kirbytext($page->fail()) ?>
+        <?php echo $page->fail()->kirbytext() ?>
       </div>
     </div>
 
@@ -35,13 +35,13 @@
 
     <div class="u-alert js-message--success is-successful" style="display: none;">
       <div class="u-row u-center">
-        <?php echo kirbytext($page->success()) ?>
+        <?php echo $page->success()->kirbytext() ?>
       </div>
     </div>
 
     <div class="u-alert js-message--fail is-fail" style="display: none;">
       <div class="u-row u-center">
-        <?php echo kirbytext($page->fail()) ?>
+        <?php echo $page->fail()->kirbytext() ?>
       </div>
     </div>
 

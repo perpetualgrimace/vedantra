@@ -16,7 +16,7 @@ kirbytext::$pre[] = function($kirbytext, $text) {
       $htmlColumns = array();
       foreach($columns as $column) {
         $field = new Field($kirbytext->field->page, null, trim($column));
-        $htmlColumns[] = '<td>' . kirbytext($field) . '</td>';
+        $htmlColumns[] = '<td>' . $field->kirbytext() . '</td>';
       }
       $html[] = '<tr>' . implode($htmlColumns) . '</tr>';
     }
