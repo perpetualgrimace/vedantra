@@ -1,4 +1,0 @@
-default:
-  - 'concurrent:phase1'
-  - 'concurrent:phase2'
-  - 'concurrent:phase3'
