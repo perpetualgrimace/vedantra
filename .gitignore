@@ -1,5 +1,6 @@
-dploy.yaml
 node_modules
 .DS_Store
-**/.DS_Store
-/npm-debug.log
+thumbs
+media
+site/accounts
+kirby
