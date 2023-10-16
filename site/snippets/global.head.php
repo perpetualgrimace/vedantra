@@ -75,7 +75,8 @@
   if($page->description() != ''):
     echo $page->description();
   else:
-    echo excerpt($page->text(), 150);
+    echo $page->text();
+    // TODO: chopper echo excerpt($page->text(), 150);
   endif ?>">
   <meta property="og:site_name" content="<?php echo $site->title() ?>">
   <meta property="og:image" content="<?php
