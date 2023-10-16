@@ -1,6 +1,6 @@
 <?php
   // check for optionable variables passed from template
-  if(isset($depth)): $depth = $depth; else: $depth = null; endif;
+  if(isset($depth)): $depth = $depth; else: $depth = 0; endif;
   if(isset($theme)): $theme = $theme; else: $theme = null; endif; // used in opening main block
   if(isset($alignment)): $alignment = $alignment; else: $alignment = 'u-left'; endif;
   // check the depth of the page within the site hierarchy
@@ -16,7 +16,7 @@
 
       <div class="header__container u-left">
 
-        <?php if(($page->depth() >= 1) && ($page->parent()->slug() != 'papers')): ?>
+        <?php if(($page->depth() >= 1) && $page->parent() && $page->parent()->slug() != 'papers'): ?>
 
         <div class="breadcrumbs" role="navigation">
           <ul class="breadcrumbs__list">
