@@ -17,7 +17,7 @@
 
            <img class="person__img"
                 srcset="<?php echo $page->url() . '/' . $img; ?> 330w,
-                     <?php echo thumb($page->image($img), array('width' => 200, 'quality' => 90))->url() ?> 200w"
+                     <?php echo $page->image($img)->thumb(array('width' => 200, 'quality' => 90))->url() ?> 200w"
                 sizes="90vw,
                   (min-width: 40em) 42vw,
                   (min-width: 64em) 22vw,
