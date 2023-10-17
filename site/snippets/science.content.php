@@ -38,8 +38,7 @@
           if($paper->title()->words() < 9):
             $paper_title = $paper->title();
           else:
-            // TODO: replace with chopper $paper_title = $paper->title()->excerpt(7, 'words');
-            $paper_title = $paper->title();
+            $paper_title = $paper->title()->chopper(56);
           endif;
         ?>
 

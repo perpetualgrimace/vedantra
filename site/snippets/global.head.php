@@ -53,8 +53,7 @@
   if($page->description() != ''):
     echo $page->description();
   else:
-    echo $page->text(), 150;
-    // TODO:  echo excerpt($page->text(), 150);
+    echo $page->text()->chopper(150);
   endif ?>">
   <meta name="twitter:image:src" content="<?php
   if($page->image('social.png')):
@@ -75,8 +74,7 @@
   if($page->description() != ''):
     echo $page->description();
   else:
-    echo $page->text();
-    // TODO: chopper echo excerpt($page->text(), 150);
+    echo $page->text()->chopper(150);
   endif ?>">
   <meta property="og:site_name" content="<?php echo $site->title() ?>">
   <meta property="og:image" content="<?php
