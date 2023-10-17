@@ -10,7 +10,7 @@
 
  <div class="card card--vertical">
 
-    <a class="thumb u-screenreader--ignore" href="<?php echo $child->url() ?>" tabindex="-1">
+    <?php /* <a class="thumb u-screenreader--ignore" href="<?php echo $child->url() ?>" tabindex="-1"> */ ?>
 
     <?php if($img != null): ?>
 
@@ -30,11 +30,18 @@
 
     <?php endif ?>
 
-  </a>
+  <?php /* </a>
 
     <a class="caption" href="<?php echo $child->url() ?>" role="link">
       <h3 class="caption__title"><?php echo $child->title() ?></h3>
       <p class="caption__subtitle u-small"><?php echo $child->position() ?></p>
     </a>
+
+  */ ?>
+
+    <div class="caption">
+      <h3 class="caption__title"><?php echo $child->title() ?></h3>
+      <p class="caption__subtitle u-small"><?php echo $child->position() ?></p>
+    </div>
 
  </div>
