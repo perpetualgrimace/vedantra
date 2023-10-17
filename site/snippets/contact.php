@@ -7,7 +7,7 @@
 
   <div class="u-content" id="contactform">
 
-  <?php if($form->hasMessage()): ?>
+  <?php /* if($form->hasMessage()): ?>
 
     <?php if($form->successful()): ?>
 
@@ -26,12 +26,12 @@
     </div>
 
   <?php endif ?>
-  <?php else: ?>
+  <?php else: */ ?>
 
     <h2><?php echo $page->headline() ?></h2>
     <?php echo snippet('contact.form') ?>
 
-  <?php endif ?>
+  <?php // endif ?>
 
     <div class="u-alert js-message--success is-successful" style="display: none;">
       <div class="u-row u-center">

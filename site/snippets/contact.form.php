@@ -23,7 +23,7 @@
   <input type="text" name="website" id="website" class="uniform__potty" style="display: none;">
 
   <div class="u-12col">
-    <button name="_submit" class="btn--small" type="submit" value="<?php echo $form->token() ?>"<?php e($form->successful(), ' disabled')?>><?php echo $page->submit() ?></button>
+    <button name="_submit" class="btn--small" type="submit" value="<?php // echo $form->token() ?>"<?php // e($form->successful(), ' disabled')?>><?php echo $page->submit() ?></button>
   </div>
 
 </form>
