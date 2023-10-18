@@ -2,7 +2,7 @@ Title: About
 
 ----
 
-Text: 
+Text:
 
 ## Advancing the Frontier of Immunotherapy
 
