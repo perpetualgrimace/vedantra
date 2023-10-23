@@ -1,0 +1,9 @@
+// meta info
+.meta {
+  ul {
+    @include bulleted-list;
+  }
+  dt {
+    @include aller-bold;
+  }
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="35px" height="35px" viewBox="0 0 35 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.5.2 (25235) - http://www.bohemiancoding.com/sketch -->
+    <title>big-o</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="website" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M17.5,35 C27.1649831,35 35,27.1649831 35,17.5 C35,7.83501688 27.1649831,0 17.5,0 C7.83501688,0 0,7.83501688 0,17.5 C0,27.1649831 7.83501688,35 17.5,35 Z M17.5,29 C23.8512746,29 29,23.8512746 29,17.5 C29,11.1487254 23.8512746,6 17.5,6 C11.1487254,6 6,11.1487254 6,17.5 C6,23.8512746 11.1487254,29 17.5,29 Z" id="big-o" fill="#383C55" sketch:type="MSShapeGroup"></path>
+    </g>
+</svg>

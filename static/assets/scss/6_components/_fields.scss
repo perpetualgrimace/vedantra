@@ -1,0 +1,94 @@
+// inputs
+input:not([type="submit"]):not([type="file"]),
+textarea {
+  padding: 0.5rem 0.75rem;
+  width: 100%;
+  outline: none;
+  border-radius: $radius;
+  color: $dark-1;
+  border: 1px solid $gray;
+  background: rgba($light-1, 0.1);
+
+  &:hover,
+  &:active,
+  &:focus {
+    background: $white;
+    outline: none;
+    border-color: $dark-1;
+  }
+}
+
+textarea {
+  resize: vertical;
+  min-height: 10rem;
+  max-height: 20rem;
+}
+
+// contact form
+form {
+  label {
+    @include small-font-size;
+    @include aller-bold;
+  }
+
+  @include bp-max(m3) {
+    .u-6col + .u-6col {
+      margin-top: 1rem;
+    }
+  }
+  @include bp(m3) {
+    .u-6col {
+      display: inline-block;
+
+      &:nth-of-type(2) {
+        float: right;
+      }
+    }
+  }
+}
+
+// error / success messages
+.message-success,
+.message-fail {
+  padding-top: 2rem;
+
+  @include bp(m3) {
+    padding-top: 4rem;
+  }
+}
+
+// honeypot
+.uniform__potty {
+  @include screen-reader-text;
+}
+
+// mailchimp
+.mc-subscribe-container {
+  display: table;
+  vertical-align: top;
+  border-spacing: 0;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 50rem;
+  margin: 0 auto;
+
+  .mc-field-group {
+    display: table-cell;
+    border-collapse: collapse;
+    vertical-align: top;
+    padding: 0px;
+    width: 100%;
+
+    input {
+      margin-top: 0;
+      vertical-align: top;
+      height: 2.45rem; // magic number
+    }
+  }
+  button {
+    display: block;
+    left: -1px;
+    height: 2.45rem; // magic number
+    margin-top: 0;
+  }
+}

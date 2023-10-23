@@ -1,0 +1,157 @@
+// cards
+
+// style h3 as p
+@mixin paragraph-title {
+  font-size: 1rem;
+  margin-bottom: 0;
+}
+
+// container
+@supports (flex-wrap: wrap) {
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    @include bp(m3) {
+      margin-top: -1.5rem !important; // yeah, I know
+    }
+    @include bp(l1) {
+      justify-content: flex-start;
+    }
+  }
+}
+
+// vertical
+.card {
+  display: inline-block;
+  margin-top: 2rem;
+  border: 2px solid $light-1;
+
+  &:hover,
+  &.is-focused {
+    border-color: $light-2;
+    @include box-shadow;
+
+    .thumb__img {
+      opacity: $hover-opacity;
+    }
+    .caption__title {
+      color: $brand-accent;
+    }
+  }
+
+  @include bp-max(s1) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+// vertical card (people)
+.card--vertical {
+  text-align: center;
+
+  &:nth-of-type(2n + 1) {
+    margin-right: 4%;
+  }
+
+  @include bp-max(s1) {
+    max-width: 14rem;
+  }
+  @include bp(s1) {
+    width: 47%;
+  }
+  @include bp(l1) {
+    width: 29%;
+
+    &:nth-of-type(2n + 1) {
+      margin-right: auto;
+    }
+
+    &:nth-of-type(3n + 1),
+    &:nth-of-type(3n + 2) {
+      margin-right: 5%;
+    }
+  }
+
+  .caption__title {
+    font-size: 0.8rem;
+    color: $brand-color;
+  }
+  .caption__subtitle {
+    font-size: 0.625rem;
+  }
+}
+
+// horizontal card (papers)
+.card--horizontal {
+  width: 100%;
+  padding: 1rem;
+}
+
+.cards--title_only {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .card {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    &:focus {
+      border-color: $light-2;
+      @include box-shadow;
+    }
+  }
+
+  @include bp(m2) {
+    flex-direction: row;
+    margin-left: 0;
+
+    @supports (display: -webkit-flex) or (display: -moz-flex) or
+      (display: flex) {
+      .card + .card {
+        margin-left: 2rem;
+      }
+    }
+  }
+
+  @include bp-max(m2) {
+    .card + .card {
+      margin-top: 2rem;
+    }
+  }
+}
+
+.thumb {
+  display: block;
+  background: $light-1; // when 100% just isn't 100%
+
+  &__img {
+    width: 100%;
+    @include no-wiggle;
+  }
+}
+
+.caption {
+  display: block;
+  margin-top: 0;
+  padding: 0.5rem 1rem 0;
+  border-top: none;
+  background-color: $white;
+
+  &__title {
+    @include paragraph-title;
+    color: $dark-1;
+  }
+
+  &__subtitle {
+    margin-top: 0;
+    padding-top: 0.25rem;
+    padding-bottom: 0.5rem;
+    font-weight: 300;
+    line-height: 1.25em;
+    color: $dark-1;
+  }
+}

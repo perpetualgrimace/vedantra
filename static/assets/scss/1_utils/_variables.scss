@@ -1,0 +1,60 @@
+// colors
+$brand-color    : #602351;
+$brand-accent   : #B0268C;
+$brand-offset   : #026C7C;
+
+$white          : #FCFEFF;
+$light-1        : #DFDFE5;
+$light-2        : #AEB2C6;
+$gray           : #8186A0;
+$dark-1         : #595E78;
+$dark-2         : #383C55;
+$black          : #141832;
+
+$shadow         : rgba(#000, 0.25);
+$shadow-dark    : rgba(#000, 0.5);
+
+$ui-success     : #2DCEAE;
+$ui-caution     : #FFD000;
+$ui-warning     : #DB3A3E;
+
+$facebook-blue  : #3b5998;
+$twitter-blue   : #00aced;
+$linkedin-blue  : #0077B5;
+$google-red     : #DD4B39;
+
+
+// breakpoints
+$s1:  25rem;
+$s2:  30rem;
+
+$m1:  42rem;      // nav changes
+$m2:  56.25rem;
+$m3:  64rem;
+
+$l1:  80rem;
+$l2:  90rem;
+$l3:  100rem;
+
+
+ // column widths
+ $col-12: 100%;
+ $col-10: 82.41758242%;
+ $col-9:  73.62637363%;
+ $col-8:  64.83516484%;
+ $col-6:  47.25274725%;
+ $col-4:  29.67032967%;
+
+
+ // border radius
+ $radius--inner: 0.2rem;
+ $radius--outer: 0.35rem;
+ $radius: $radius--inner;
+
+
+ // reused heights
+ $nav-height: 3.325rem;
+
+
+ // opacity
+ $hover-opacity: 0.9;

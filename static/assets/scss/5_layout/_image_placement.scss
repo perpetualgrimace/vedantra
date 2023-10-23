@@ -1,0 +1,47 @@
+// break that grid!
+@include bp(m3) {
+  figure svg, figure image {
+    max-width: none;
+  }
+}
+
+
+// icmv illustration
+.icmv_img {
+  @include bp-max(m3) {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: -5%;
+    z-index: 0;
+  }
+  @include bp(m3) {
+    &--science {
+      margin-top: -7rem !important;
+      left: -25px;
+    }
+
+    &--home {
+      margin-top: 0;
+      left: 2rem;
+    }
+  }
+}
+
+
+// icmv illustration
+.amphiphile_img {
+  @include bp(m3) {
+    margin-top: -16% !important;
+    text-align: left;
+
+    svg {
+      width: 26rem;
+    }
+  }
+  @include bp(l3) {
+
+    svg {
+      width: 26vw;
+    }
+  }
+}
