@@ -2,7 +2,7 @@ Title: ALK
 
 ----
 
-Text: 
+Text:
 
 ## Targeting ALK
 
@@ -10,4 +10,4 @@ First discovered in lymphoma cell lines, anaplastic lymphoma kinase (ALK) is a n
 
 Because it is a novel protein specific to tumors, ALK presents an excellent target for both small molecule and immuno-therapies. A variety of ALK inhibitors are entering the market that have shown efficacy in reducing tumor volume and extending lifespans. However, every tumor treated with ALK inhibitors eventually develops resistance and renews growth.
 
-At Vedantra, we are developing a therapeutic vaccine that raises immune responses against ALK, against which tumors cannot develop resistance. We have shown that encapsulating ALK into (link: ../../tech/icmv text: ICMVs) improves T cell responses against the protein and delays tumor growth. Used in combination with other immunomodulators, ALK ICMVs can eliminate tumors in multiple mouse models of ALK-driven cancers.
+At Vedantra, we are developing a therapeutic vaccine that raises immune responses against ALK, against which tumors cannot develop resistance. We have shown that encapsulating ALK into (link: /science/tech/icmv text: ICMVs) improves T cell responses against the protein and delays tumor growth. Used in combination with other immunomodulators, ALK ICMVs can eliminate tumors in multiple mouse models of ALK-driven cancers.

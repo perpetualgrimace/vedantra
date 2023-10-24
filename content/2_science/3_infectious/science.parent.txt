@@ -2,8 +2,8 @@ Title: Infectious Disease
 
 ----
 
-Text: 
+Text:
 
 ## Expanding immunotherapeutic applications
 
-Since the first observations of Edward Jenner that milkmaids were immune to smallpox, there have been significant advances in understanding, manufacturing, and administering vaccines. Despite these improvements and the corresponding reduction in disease across the globe, there remain infectious agents that have not succumbed to the current vaccination paradigm of protective antibody responses. (link: malaria text: Malaria), HIV, tuberculosis, influenza... the list is long. Vedantra’s technologies enlist both antibody and T cell responses that impair and destroy pathogens before they can replicate and cause serious damage.
+Since the first observations of Edward Jenner that milkmaids were immune to smallpox, there have been significant advances in understanding, manufacturing, and administering vaccines. Despite these improvements and the corresponding reduction in disease across the globe, there remain infectious agents that have not succumbed to the current vaccination paradigm of protective antibody responses. (link: /science/infectious/malaria text: Malaria), HIV, tuberculosis, influenza... the list is long. Vedantra’s technologies enlist both antibody and T cell responses that impair and destroy pathogens before they can replicate and cause serious damage.

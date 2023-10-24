@@ -2,7 +2,7 @@ Title: The Science
 
 ----
 
-Text: 
+Text:
 
 ## Immune surveillance
 
@@ -14,7 +14,7 @@ Lymph nodes, positioned along lymph vessels, contain specialized antigen-present
 
 ----
 
-Diseases: 
+Diseases:
 
 ## Combating the worst
 
@@ -22,7 +22,7 @@ Our platforms are effective against some of the most confounding global health i
 
 ----
 
-P-i: 
+P-i:
 
 ## Precision Immunity
 
@@ -30,4 +30,4 @@ Lymph flow is a one-way street for most molecules, but not all. The majority of 
 
 By delivering active agents directly to their targets, our patented technologies solve problems of drug stability, resiliency, and safety, all by elegantly simple design.
 
-(cta: See how link: science/tech)
+(cta: See how link: /science/tech)

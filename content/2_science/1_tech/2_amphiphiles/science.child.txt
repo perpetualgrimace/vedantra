@@ -2,7 +2,7 @@ Title: Amphiphiles
 
 ----
 
-Text: 
+Text:
 
 ## Amphiphiles Deliver Small Payloads
 
@@ -11,6 +11,6 @@ The largest protein component in the blood and lymph is albumin. Its one-way dra
 
 (image: amphiphile_illustration2.png alt: )
 
-Once there, amphiphilic payloads are taken up by APCs to drive potent T and B cell responses. This strategy has been used to improve activity of adjuvants that normally show significant toxicity in conjunction with whole protein antigens, as well as with peptide antigens that generate little to no response when used in their soluble forms. With their flexible chemistry, amphiphile constructs can be generated from many types of molecules. In conjunction with solid-phase synthesis, amphiphile conjugates can be inexpensively generated quickly at GMP, providing an ideal platform to improve responses against  peptide antigens.
+Once there, amphiphilic payloads are taken up by APCs to drive potent T and B cell responses. This strategy has been used to improve activity of adjuvants that normally show significant toxicity in conjunction with whole protein antigens, as well as with peptide antigens that generate little to no response when used in their soluble forms. With their flexible chemistry, amphiphile constructs can be generated from many types of molecules. In conjunction with solid-phase synthesis, amphiphile conjugates can be inexpensively generated quickly at GMP, providing an ideal platform to improve responses against peptide antigens.
 
-(cta: Read more link: ../infectious)
+(cta: Read more link: /science/infectious)

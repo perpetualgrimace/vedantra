@@ -10,4 +10,4 @@ With more than 3.2 billion people at risk, 200 million cases per year, and more 
 
 (image: chart--antibody_response_v2@2x.png alt: )
 
-Research indicates that our (link: science/tech/icmv text: ICMV platform) could be ideally suited to drive strong and durable antibody responses against malaria antigens. We will continue to advance our technology with the goal of ultimately eradicating this pervasive and destructive disease.
+Research indicates that our (link: /science/tech/icmv text: ICMV platform) could be ideally suited to drive strong and durable antibody responses against malaria antigens. We will continue to advance our technology with the goal of ultimately eradicating this pervasive and destructive disease.

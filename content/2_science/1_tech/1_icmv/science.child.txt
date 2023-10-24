@@ -10,4 +10,4 @@ Interbilayer-crosslinked multilamellar vesicles (ICMVs) represent a new approach
 
 This resiliency improves the efficacy of vaccine formulations by delivering antigens and adjuvants together to the lymph nodes, giving APCs both the context (danger signal) and target (antigen specific structure) to drive adaptive immune responses. In our malaria and HPV programs, we have demonstrated enhanced B and T cell responses against multiple antigens in both prophylactic and therapeutic contexts. ICMVs are manufactured in an entirely aqueous, gentle, and scalable process that has been validated by an outside GMP CMO.
 
-(cta: Read more link: ../cancer)
+(cta: Read more link: /science/cancer)

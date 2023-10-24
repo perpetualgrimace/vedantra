@@ -14,7 +14,7 @@ Link: http://stm.sciencemag.org/content/5/204/204ra130.short
 
 ----
 
-Authors: 
+Authors:
 
 - Adrienne Li
 - James Moon
@@ -30,6 +30,6 @@ Authors:
 
 ----
 
-Text: 
+Text:
 
 Many pathogens infiltrate the body and initiate infection via mucosal surfaces. Hence, eliciting cellular immune responses at mucosal portals of entry is of great interest for vaccine development against mucosal pathogens. We describe a pulmonary vaccination strategy combining Toll-like receptor (TLR) agonists with antigen-carrying lipid nanocapsules [interbilayer-crosslinked multilamellar vesicles (ICMVs)], which elicit high-frequency, long-lived, antigen-specific effector memory T cell responses at multiple mucosal sites. Pulmonary immunization using protein- or peptide-loaded ICMVs combined with two TLR agonists, polyinosinic-polycytidylic acid (polyI:C) and monophosphoryl lipid A, was safe and well tolerated in mice, and led to increased antigen transport to draining lymph nodes compared to equivalent subcutaneous vaccination. This response was mediated by the vast number of antigen-presenting cells (APCs) in the lungs. Nanocapsules primed 13-fold more T cells than did equivalent soluble vaccines, elicited increased expression of mucosal homing integrin α4β7+, and generated long-lived T cells in both the lungs and distal (for example, vaginal) mucosa strongly biased toward an effector memory (TEM) phenotype. These TEM responses were highly protective in both therapeutic tumor and prophylactic viral vaccine settings. Together, these data suggest that targeting cross-presentation–promoting particulate vaccines to the APC-rich pulmonary mucosa can promote robust T cell responses for protection of mucosal surfaces.

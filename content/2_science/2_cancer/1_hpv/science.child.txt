@@ -10,6 +10,6 @@ One of the most prevalent infections in the world is human papilloma virus (HPV)
 
 (image: chart--t-cell_response_v2@2x.png alt: )
 
-To solve this unmet need, Vedantra has developed a therapeutic vaccine that targets the HPV proteins that can cause cancer and are not included in current prophylactic vaccines. We have seen strong T cell responses against both E6 and E7 oncoproteins that drive significant delays in tumor growth. Used in combination with other immunomodulators, E6 and E7 (link: ../../tech/icmv text: ICMVs) can eliminate established tumors in multiple mouse models of HPV-induced cancer.
+To solve this unmet need, Vedantra has developed a therapeutic vaccine that targets the HPV proteins that can cause cancer and are not included in current prophylactic vaccines. We have seen strong T cell responses against both E6 and E7 oncoproteins that drive significant delays in tumor growth. Used in combination with other immunomodulators, E6 and E7 (link: /science/tech/icmv text: ICMVs) can eliminate established tumors in multiple mouse models of HPV-induced cancer.
 
 (image: chart--tumor_size_reduction_v2@2x.png alt: )

@@ -4,4 +4,4 @@ Title: Chemist
 
 Text:
 
-(cta: Contact us link: ../contact)
+(cta: Contact us link: /contact)
