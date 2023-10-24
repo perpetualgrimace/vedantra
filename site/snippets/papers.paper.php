@@ -10,7 +10,7 @@
       <p>Read the full paper at <a href="<?php echo $page->link() ?>" target="_blank"><?php echo $page->publication() ?></a>.</p>
 
       <p>
-        <a href="../papers">&larr; All papers</a>
+        <a href="/papers">&larr; All papers</a>
       </p>
 
     </article>

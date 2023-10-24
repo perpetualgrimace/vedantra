@@ -27,7 +27,7 @@
 
         <?php else: ?>
 
-         <img class="person__img" src="../person_placeholder.png">
+         <img class="person__img" src="/person_placeholder.png">
 
         <?php endif ?>
 
