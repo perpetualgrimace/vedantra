@@ -15,7 +15,7 @@
     <?php if($img != null): ?>
 
        <img class="thumb__img"
-            srcset="<?php echo $child->url() . '/' . $img; ?> 330w,
+            srcset="<?php echo $child->image($img)->url() ?> 330w,
                  <?php echo $child->image($img)->thumb(array('width' => 200, 'quality' => 90))->url() ?> 200w"
             sizes="90vw,
               (min-width: 40em) 42vw,
