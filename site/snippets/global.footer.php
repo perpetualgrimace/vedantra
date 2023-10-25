@@ -18,7 +18,7 @@
 <script>
   (function(d) {
     var config = {
-      kitId: 'thc3upq',
+      kitId: 'kew1btg',
       scriptTimeout: 3000,
       async: true
     },
